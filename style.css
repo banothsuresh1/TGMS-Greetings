@@ -1,0 +1,148 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url('images/bg2.jpeg');
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    color: #ffffff; /* White text for better contrast */
+    padding: 20px;
+}
+
+/* School Photo Styling */
+.school-photo {
+    width: 350px; /* Fixed width for square box */
+    height: 350px; /* Fixed height for square box */
+    object-fit: cover; /* Ensures the image covers the square without distortion */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for the image */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background for better contrast */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #ffcc00; /* Bright yellow border for header */
+}
+
+header h1 {
+    font-family: 'Georgia', serif; /* Stylish font for header */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffcc00; /* Bright yellow for header text */
+}
+
+/* Main Content Styling */
+.main-content, .teacher-list, .teacher-info {
+    background-color: rgba(35, 17, 14, 0.7); /* Dark background with transparency */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #ffcc00; /* Bright yellow border for better clarity */
+}
+
+h2 {
+    font-family: 'Georgia', serif; /* Stylish font for subheadings */
+    color: #ffcc00; /* Yellow color for subheadings */
+    margin-bottom: 20px;
+}
+
+/* School Info and Teacher Info Styling */
+/* Teacher Photo Styling */
+.teacher-photo {
+    width: 250px; /* Fixed width for square box */
+    height: 400px; /* Fixed height for square box */
+    object-fit: cover; /* Ensures the image covers the square without distortion */
+    border-radius: 70%; /* Circle shape */
+    border: 5px solid #ffcc00; /* Matching border color with subheadings */
+}
+
+/* Paragraph Styling */
+p {
+    font-family: 'Verdana', sans-serif; /* Stylish font for paragraphs */
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #ffffff; /* White text color for readability */
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Bright yellow button */
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    border: 2px solid #ffcc00; /* Bright yellow border */
+}
+
+.button:hover {
+    background-color: #e5b800; /* Slightly darker yellow on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker footer background */
+    padding: 10px;
+    border-top: 4px solid #ffcc00; /* Bright yellow border for footer */
+}
+
+footer p {
+    font-family: 'Verdana', sans-serif; /* Stylish font for footer text */
+    color: #ffcc00; /* Yellow text in footer */
+    font-size: 1em;
+}
+
+/* Teacher List Styling */
+.teacher-list {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #ffcc00; /* Bright yellow border for better clarity */
+}
+
+.teacher-list h2 {
+    font-family: 'Georgia', serif; /* Stylish font for headings */
+    color: #ffcc00; /* Bright yellow for the heading */
+    margin-bottom: 20px;
+}
+
+.teacher-list ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+}
+
+.teacher-list li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.teacher-list a {
+    color: #ffffff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.teacher-list a:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+
+
